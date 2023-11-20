@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <br><br>
+        <h1>Formulario de registro de lead</h1>
+        <br><br>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <input type="hidden" name="accessKey" value="a3c40063-ec79-491f-8c05-ae501207dc41">
+            <input type="hidden" name="redirectTo" value="#">
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="name" required><br><br>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="phone" required><br><br>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="message" rows="4" style="resize: none"></textarea><br><br>
+
+            <button type="submit">Enviar</button><br><br>
+            <a href="leads.php"><input type="button" value="Visualizar Leads"></a>
+        </form>
+    </center>
+</body>
+</html>
+
